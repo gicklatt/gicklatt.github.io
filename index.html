@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gicklatt — Indie Mobile Games</title>
+  <meta name="description" content="Gicklatt builds small, handcrafted mobile games. Play ChessPawn and Pallor." />
+  <link rel="icon" href="favicon.ico" />
+  <meta property="og:title" content="Gicklatt — Indie Mobile Games" />
+  <meta property="og:description" content="Small, handcrafted mobile games." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root {
+      --bg: #0d0e12;
+      --panel: #16181f;
+      --line: #262a36;
+      --text: #e7e9ef;
+      --muted: #9aa0b4;
+      --accent: #7c8cff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+
+    header { padding: 96px 0 56px; text-align: center; }
+    header h1 { font-size: 44px; font-weight: 800; letter-spacing: -0.02em; }
+    header p { color: var(--muted); margin-top: 12px; font-size: 18px; }
+
+    .games { display: grid; gap: 20px; padding-bottom: 64px; }
+    @media (min-width: 640px) { .games { grid-template-columns: 1fr 1fr; } }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      transition: border-color .2s, transform .2s;
+    }
+    .card:hover { border-color: var(--accent); transform: translateY(-3px); }
+    .card-head { display: flex; align-items: center; gap: 14px; }
+    .card-head img {
+      width: 56px; height: 56px; border-radius: 13px;
+      object-fit: cover; border: 1px solid var(--line);
+    }
+    .card-head h2 { font-size: 21px; font-weight: 700; }
+    .card-head .tag { color: var(--muted); font-size: 14px; }
+    .card p.desc { color: var(--muted); margin: 16px 0 20px; font-size: 15px; flex: 1; }
+
+    .links { display: flex; flex-wrap: wrap; gap: 10px; }
+    .btn {
+      display: inline-block; text-decoration: none;
+      padding: 9px 16px; border-radius: 9px; font-size: 14px; font-weight: 600;
+    }
+    .btn-primary { background: var(--accent); color: #0d0e12; }
+    .btn-ghost { background: transparent; border: 1px solid var(--line); color: var(--text); }
+    .btn-soon { background: transparent; border: 1px solid var(--line); color: var(--muted); cursor: default; }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 32px 0 56px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Gicklatt</h1>
+      <p>Small, handcrafted mobile games.</p>
+    </header>
+
+    <main class="games">
+      <article class="card">
+        <div class="card-head">
+          <img src="chesspawn-icon.png" alt="ChessPawn icon" />
+          <div>
+            <h2>ChessPawn</h2>
+            <span class="tag">Chess Puzzle Game</span>
+          </div>
+        </div>
+        <p class="desc">
+          Think like a chess master, solve like a puzzle genius. 400
+          handcrafted levels, daily challenges and 12 board themes.
+        </p>
+        <div class="links">
+          <a class="btn btn-primary" href="chesspawngame/">Visit page</a>
+          <a class="btn btn-ghost" href="https://apps.apple.com/us/app/chesspawn/id6760585822">App Store</a>
+          <a class="btn btn-ghost" href="https://play.google.com/store/apps/details?id=com.gicklatt.chesspawn">Google Play</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-head">
+          <img src="pallor-icon.png" alt="Pallor icon" />
+          <div>
+            <h2>Pallor</h2>
+            <span class="tag">Gothic Bouncer</span>
+          </div>
+        </div>
+        <p class="desc">
+          A one-thumb gothic bouncer about falling — gracefully — through
+          the dark. Drift, leap and chase the Eclipse.
+        </p>
+        <div class="links">
+          <a class="btn btn-primary" href="pallorgame/">Visit page</a>
+          <span class="btn btn-soon">App Store · soon</span>
+          <span class="btn btn-soon">Google Play · soon</span>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      &copy; <span id="year"></span> Gicklatt &middot;
+      <a href="mailto:gicklatt@gmail.com">gicklatt@gmail.com</a>
+    </footer>
+  </div>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
