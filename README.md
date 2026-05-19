@@ -42,6 +42,7 @@ here therefore covers every game — no per-game copy is needed.
 |-----------|-----------------|----------------------------------|
 | ChessPawn | `chesspawngame` | gicklatt.github.io/chesspawngame |
 | Pallor    | `pallorgame`    | gicklatt.github.io/pallorgame    |
+| Tixxle    | `tixxlegame`    | gicklatt.github.io/tixxlegame    |
 
 Each game is a separate **project page** repo — the URL sub-path comes
 from the repository name.
