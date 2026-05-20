@@ -38,11 +38,13 @@ here therefore covers every game — no per-game copy is needed.
 
 ## Games (each lives in its own repo)
 
-| Game      | Repo            | URL                              |
-|-----------|-----------------|----------------------------------|
-| ChessPawn | `chesspawngame` | gicklatt.github.io/chesspawngame |
-| Pallor    | `pallorgame`    | gicklatt.github.io/pallorgame    |
-| Tixxle    | `tixxlegame`    | gicklatt.github.io/tixxlegame    |
+| Game      | Repo             | URL                               |
+|-----------|------------------|-----------------------------------|
+| ChessPawn | `chesspawngame`  | gicklatt.github.io/chesspawngame  |
+| Exhomorph | `exhomorphgame`  | gicklatt.github.io/exhomorphgame  |
+| Gambitile | `gambitilegame`  | gicklatt.github.io/gambitilegame  |
+| Pallor    | `pallorgame`     | gicklatt.github.io/pallorgame     |
+| Tixxle    | `tixxlegame`     | gicklatt.github.io/tixxlegame     |
 
 Each game is a separate **project page** repo — the URL sub-path comes
 from the repository name.
