@@ -1,9 +1,14 @@
-<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-  <rect width="128" height="128" fill="#141221"/>
-  <rect x="28" y="26" width="16" height="16" fill="#b8ff3a"/>
-  <rect x="56" y="26" width="16" height="16" fill="#b8ff3a"/>
-  <rect x="84" y="26" width="16" height="16" fill="#b8ff3a"/>
-  <rect x="24" y="42" width="80" height="14" fill="#b8ff3a"/>
-  <rect x="38" y="56" width="52" height="40" fill="#b8ff3a"/>
-  <rect x="28" y="96" width="72" height="14" fill="#b8ff3a"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34D399"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="114" fill="url(#bg)"/>
+  <rect x="96" y="108" width="320" height="316" rx="62" fill="#000000" opacity="0.12"/>
+  <rect x="96" y="92" width="320" height="320" rx="62" fill="#FFFFFF"/>
+  <g transform="translate(150,140) scale(0.41)" fill="#047857">
+    <path d="M60.81 476.91h300v-60h-300v60zm233.79-347.3l13.94 7.39c31.88-43.62 61.34-31.85 61.34-31.85l-21.62 53 35.64 19 2.87 33 64.42 108.75-43.55 29.37s-26.82-36.39-39.65-43.66c-10.66-6-41.22-10.25-56.17-12l-67.54-76.91-12 10.56 37.15 42.31c-.13.18-.25.37-.38.57-35.78 58.17 23 105.69 68.49 131.78H84.14C93 385 294.6 129.61 294.6 129.61z"/>
+  </g>
 </svg>

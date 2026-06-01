@@ -1,7 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-  <rect width="128" height="128" fill="#16102b"/>
-  <rect x="34" y="34" width="60" height="60" fill="#ff3ca6"/>
-  <rect x="46" y="50" width="12" height="12" fill="#26e6d6"/>
-  <rect x="70" y="50" width="12" height="12" fill="#26e6d6"/>
-  <rect x="50" y="74" width="28" height="8" fill="#1a1330"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#21424a"/>
+  <!-- studded board tile -->
+  <rect x="106" y="92" width="300" height="312" rx="62" fill="#14141d"/>
+  <rect x="114" y="108" width="284" height="284" rx="56" fill="#c2ad84"/>
+  <rect x="114" y="100" width="284" height="276" rx="56" fill="#fbf8ee"/>
+  <g fill="#14141d">
+    <circle cx="150" cy="136" r="12"/><circle cx="362" cy="136" r="12"/>
+    <circle cx="150" cy="340" r="12"/><circle cx="362" cy="340" r="12"/>
+  </g>
+  <!-- gold king -->
+  <g transform="translate(256,236) scale(0.46) translate(-256,-256)">
+    <path d="M405.995 477.15h-300v-60h300v60zm-10.3-107.13h-279.4a96.88 96.88 0 0 1 6.65 31.12h266.1a96.88 96.88 0 0 1 6.65-31.12zm-139.7-241.06a35.76 35.76 0 0 0-35.76 35.76c0 50.16 35.76 99.34 35.76 99.34s35.76-49.18 35.76-99.34a35.76 35.76 0 0 0-35.76-35.76zm8-15.38V94.24h18.36v-16h-18.36V54.85h-16v23.39h-18.36v16h18.36v19.38a51.9 51.9 0 0 1 16-.04zm81.64 51.36a98.74 98.74 0 0 0-38.13 7.61c-3.23 51.75-37.07 98.85-38.58 100.93l-4.93 6.76V354h140c16.57-26.15 40.78-42.41 40.78-90a99.13 99.13 0 0 0-99.14-99.07zm-141.16 7.61a99.16 99.16 0 0 0-137.25 91.51c0 47.55 24.21 63.82 40.78 90h139.99v-73.82l-4.94-6.79c-1.51-2.05-35.34-49.15-38.58-100.9z" fill="#e0a93e" stroke="#14141d" stroke-width="14" stroke-linejoin="round"/>
+  </g>
 </svg>
